@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Beginner Guitar Mastery",
+      "slug": "beginner-guitar-mastery",
+      "description": "Learn the basics of acoustic and electric guitar with easy-to-follow lessons and practice routines.",
+      "price": 49.99,
+      "instructor": "John Mayer",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Piano Essentials for Adults",
+      "slug": "piano-essentials-for-adults",
+      "description": "A course designed for adult beginners who want to learn piano through classical and pop music.",
+      "price": 59.99,
+      "instructor": "Alicia Keys",
+      "isFeatured": true,
+      "image": "/courses/paino.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Electronic Music Production with Ableton",
+      "slug": "electronic-music-production-ableton",
+      "description": "Create EDM, house, and trap tracks using professional tools in Ableton Live.",
+      "price": 79.00,
+      "instructor": "Deadmau5",
+      "isFeatured": true,
+      "image": "/courses/production.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Vocal Training for Singers",
+      "slug": "vocal-training-for-singers",
+      "description": "Develop your vocal range, tone, and technique for pop, rock, and classical music.",
+      "price": 39.00,
+      "instructor": "Adele",
+      "isFeatured": true,
+      "image": "/courses/singer.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Complete Music Theory Guide",
+      "slug": "complete-music-theory-guide",
+      "description": "Master scales, chords, rhythm, and harmony to become a better musician and composer.",
+      "price": 69.00,
+      "instructor": "Hans Zimmer",
+      "isFeatured": true,
+      "image": "/courses/guide.jpg"
+    }
+  ]
+}
