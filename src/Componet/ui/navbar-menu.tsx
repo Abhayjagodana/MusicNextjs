@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion"; // ✅ CORRECT PACKAGE
+import { motion } from "framer-motion";
+import Image from "next/image"; // ✅ Import Next.js Image
 
 const transition = {
-  type: "spring" as const, // 👈 fixes TS literal type error
+  type: "spring" as const,
   mass: 0.5,
   damping: 11.5,
   stiffness: 100,
@@ -86,13 +87,14 @@ export const ProductItem = ({
 }) => {
   return (
     <a href={href} className="flex space-x-2">
-      <img
-        src={src}
-        width={140}
-        height={70}
-        alt={title}
-        className="shrink-0 rounded-md shadow-2xl"
-      />
+      <div className="relative w-[140px] h-[70px] shrink-0">
+        <Image
+          src={src}
+          alt={title}
+          fill // fills the container with position: absolute
+          className="object-cover rounded-md shadow-2xl"
+        />
+      </div>
       <div>
         <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
           {title}
